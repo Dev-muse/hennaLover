@@ -33,7 +33,7 @@ body{
 }
 
 #mainNavbar .nav-link:hover{
-    color:var(--accent);
+    color:white;
 }
 
 #headingGroup span{
@@ -76,6 +76,7 @@ body{
 
 .content{
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .btn-lg{
@@ -89,4 +90,13 @@ body{
 }
 .btn-lg:focus{
     outline: none;
+}
+
+.navbar.scrolled{
+    background: #ff4400b4;
+    transition: background 500ms linear;
+    -webkit-transition: background 500ms linear;
+    -moz-transition: background 500ms linear;
+    -ms-transition: background 500ms linear;
+    -o-transition: background 500ms linear;
 }
