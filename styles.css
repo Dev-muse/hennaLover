@@ -1,0 +1,12 @@
+
+:root{
+    --lily: #C9AFB8;
+    --satinLinen:#E0D9CE;
+    --rangoonGreen:#212019;
+    --auChico:#9B6357;
+}
+
+
+body{
+    background: var(--lily);
+}
